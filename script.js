@@ -27,12 +27,12 @@ const questions = [
         ]
     },
     {
-        question: "Qual o simbolo químico do Ouro?",
+        question: "Qual o maior deserto do mundo?",
         answers: [
-            {text: "Go", correct: "false"},
-            {text: "Au", correct: "true"},
-            {text: "Ag", correct: "false"},
-            {text: "Ge", correct: "flase"},
+            {text: "Tundra do Ártico", correct: "false"},
+            {text: "Antártida", correct: "true"},
+            {text: "Saara", correct: "false"},
+            {text: "Deserto Australiano", correct: "flase"},
         ]
     },
     {
