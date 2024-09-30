@@ -1,11 +1,11 @@
 const questions = [
     {
-        question: "Qual a capital da França?",
+        question: "Qual é o menor país do mundo?",
         answers: [
-            {text: "Paris", correct: true},
-            {text: "Londres", correct: false},
-            {text: "Berlim", correct: false},
-            {text: "Madrid", correct: false},
+            { text: "Mônaco", correct: false },
+            { text: "Vaticano", correct: true },
+            { text: "Nauru", correct: false },
+            { text: "San Marino", correct: false }
         ]
     },
     {
@@ -21,7 +21,7 @@ const questions = [
         question: "Qual o maior mamífero do mundo?",
         answers: [
             {text: "Elefante", correct: "false"},
-            {text: "Girrafa", correct: "false"},
+            {text: "Girafa", correct: "false"},
             {text: "Baleia Azul", correct: "true"},
             {text: "Hipopótamo", correct: "flase"},
         ]
@@ -30,18 +30,36 @@ const questions = [
         question: "Qual o maior deserto do mundo?",
         answers: [
             {text: "Tundra do Ártico", correct: "false"},
-            {text: "Antártida", correct: "true"},
-            {text: "Saara", correct: "false"},
+            {text: "Deserto da Antártida", correct: "true"},
+            {text: "Deserto do Saara", correct: "false"},
             {text: "Deserto Australiano", correct: "flase"},
         ]
     },
     {
-        question: "Qual o idioma oficial da Coreia do Sul?",
+        question: "Qual é a capital do Japão?",
         answers: [
-            {text: "Japonês", correct: "false"},
-            {text: "Chinês", correct: "false"},
-            {text: "Inglês", correct: "false"},
-            {text: "Coreano", correct: "true"},
+            { text: "Seul", correct: false },
+            { text: "Tóquio", correct: true },
+            { text: "Pequim", correct: false },
+            { text: "Bangkok", correct: false }
+        ]
+    },
+    {
+        question: "Em que ano o homem pisou na Lua pela primeira vez?",
+        answers: [
+            { text: "1965", correct: false },
+            { text: "1969", correct: true },
+            { text: "1971", correct: false },
+            { text: "1975", correct: false }
+        ]
+    },
+    {
+        question: "Qual é o maior oceano do mundo?",
+        answers: [
+            { text: "Oceano Atlântico", correct: false },
+            { text: "Oceano Índico", correct: false },
+            { text: "Oceano Pacífico", correct: true },
+            { text: "Oceano Ártico", correct: false }
         ]
     }
 ];
